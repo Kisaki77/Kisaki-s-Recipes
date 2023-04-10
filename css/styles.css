@@ -1,0 +1,302 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+p {
+    color: grey;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.container-fluid-recipes {
+    padding: 3% 15%;
+}
+
+#inner-nav-container {
+    padding: 0 7%;
+}
+
+/* Sections */
+.colored-section {
+    background-color: rgb(49, 73, 73);
+}
+
+
+/* Title */
+
+#title {
+    background-color: rgb(88, 143, 143);
+    color: white;
+    text-align: left;
+}
+
+.icon {
+    color: rgb(49, 73, 73);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 0 20px;
+}
+
+.icon:hover {
+    color: white;
+}
+
+/* Brand Name */
+#brand-name {
+    font-family: 'Times New Roman', Times, serif, "Montserrat-Black";
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#brand-name span {
+    color: #0f1316;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 5.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 13px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.search-container {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .search-container input[type="text"] {
+    border: none;
+    width: 50%;
+    font-size: 15px;
+  }
+  
+  .search-container button[type="submit"] {
+    width: 20%;
+    background-color: rgb(49, 73, 73);
+    border: none;
+    cursor: pointer;
+    margin-left: 0.5rem;
+  }
+  
+  .search-container button[type="submit"]:hover {
+    background-color: #999;
+  }
+  
+  .search-container button[type="submit"] i {
+    color: #555;
+  }
+  
+
+/* Features Section */
+.message-recipe {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.feature-links {
+    text-decoration: none;
+    color: #0f1316;
+}
+
+.feature-links:hover {
+    color:silver;
+}
+
+.imge {
+    width: 65%;
+    margin-bottom: 2rem;
+}
+
+/* Recipes Link Section*/
+#recipes {
+    padding: 7% 15%;
+}
+
+.recipe {
+    font-size: 3rem;
+    color: white;
+    line-height: 1.5;
+}
+
+.recipe-list {
+    padding-top: 10px;
+}
+
+.recipe-link {
+    font-size: 1.5rem;
+    color: white;
+    line-height: 1.5;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.recipe-link:hover {
+    color: grey;
+}
+
+
+/* New Dishes  */
+
+.new-dishes-text {
+    margin-bottom: 1rem;
+}
+
+.carousel {
+    padding: 0 5%;
+    margin-bottom: 1rem;
+}
+
+.carousel-img {
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10%;
+}
+
+.carousel-inner {
+    font-size: 1.5rem;
+    background-color: rgb(88, 143, 143);
+    color: white;
+    text-align: center;
+}
+
+.carousel-p {
+    color: white;
+}
+
+
+/* More recipes */
+
+.more-recipes-text {
+    padding-bottom: 5%;
+    color: white;
+}
+
+.more-box {
+    padding: 5%;
+}
+
+.more-links {
+    text-decoration: none;
+    color: white;
+}
+
+.more-links:hover {
+    color:silver;
+}
+
+.more-p {
+    color: gainsboro;
+}
+
+
+/* Message */
+
+.msg {
+    padding: 7% 15%;
+}
+
+/* Footer */
+
+#footer {
+    background-color: rgb(49, 73, 73);
+    color: white;
+    padding: 3% 15%;
+}
+
+.footer-brand {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.footer-brand:hover{
+    color: silver;
+    text-decoration: none;
+}
+
+.footer-icon:hover {
+    color: silver;
+}
+
+.footer-icon {
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 0 20px;
+}
+
+.back-to-top {
+    margin-top: 2rem;
+}
+
+/* Other Pages  */
+.navbar-recipe-page {
+    padding: 0 10%;
+}
+
+/* Recipe */
+
+/* Recipe Images */
+.recipe-images {
+    width: 55%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 50%;
+}
+
+.actual-recipe-paragraphs {
+    text-align: left;
+}
+
+.actual-recipe-heading {
+    text-align: left;
+    font-family: "Montserrat-Bold";
+    font-weight: bolder;
+}
+
+.ingredients-li {
+    font-weight: bold;
+}
+
+.ingredients li,
+.ingredients p {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+
+
