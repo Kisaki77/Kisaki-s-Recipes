@@ -19,11 +19,11 @@ p {
 
 /* Containers */
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 7%;
 }
 
 .container-fluid-recipes {
-    padding: 3% 15%;
+    padding: 3% 7%;
 }
 
 #inner-nav-container {
@@ -142,7 +142,7 @@ p {
 
 /* Recipes Link Section*/
 #recipes {
-    padding: 7% 15%;
+    padding: 7% 7%;
 }
 
 .recipe {
@@ -226,7 +226,7 @@ p {
 /* Message */
 
 .msg {
-    padding: 7% 15%;
+    padding: 7% 7%;
 }
 
 /* Footer */
@@ -234,7 +234,7 @@ p {
 #footer {
     background-color: rgb(49, 73, 73);
     color: white;
-    padding: 3% 15%;
+    padding: 3% 7%;
 }
 
 .footer-brand {
